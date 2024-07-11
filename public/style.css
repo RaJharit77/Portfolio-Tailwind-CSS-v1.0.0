@@ -1,0 +1,81 @@
+    @import 'tailwindcss/base';
+    @import 'tailwindcss/components';
+    @import 'tailwindcss/utilities';
+    /* Your custom styles go here */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    @media (max-width: 640px) {
+        .flex {
+            flex-direction: inline;
+        }
+
+        .w-1/3 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 639px) {
+        body {
+            width: 103%;
+        }
+    }
+
+    @media (min-width: 640px) {
+        #menu {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width: 639px) {
+        #menu {
+            flex-direction: column;
+        }
+    }
+
+    #menuAccueil {
+        transition: transform 200ms linear;
+    }
+
+    #menuAccueil:hover {
+        transform: scale(1.2);
+    }
+
+    #menuAbout {
+        transition: transform 200ms linear;
+    }
+
+    #menuAbout:hover {
+        transform: scale(1.2);
+    }
+
+    #menuOutils {
+        transition: transform 200ms linear;
+    }
+
+    #menuOutils:hover {
+        transform: scale(1.2);
+    }
+
+    #menuContacts {
+        transition: transform 200ms linear;
+    }
+
+    #menuContacts:hover {
+        transform: scale(1.2);
+    }

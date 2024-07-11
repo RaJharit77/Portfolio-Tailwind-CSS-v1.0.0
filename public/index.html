@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="img/RJ.jpg" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <script src="app.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+        integrity="sha512-F5CKf8E2Q0m/JGcw2Kd75Vu8YhL3fOuZN/jj+XbrlJ/1RfRGHwQQQjG1+3MqYT+bDtEZyXDVXJLZW/RkRt+4KA=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="overflow-x-hidden">
+    <!--NavBar-->
+    <header class="bg-gray-900 p-4 flex justify-between items-center z-50 top-0 sticky">
+        <a href="https://github.com/RaJharit77" class="text-2xl text-gray-100 font-bold">
+            <span class="hover:text-blue-600">Rajoharitiana</span> <span class="hover:text-yellow-400">RAHARISON</span>
+        </a>
+        <button class="text-gray-100 focus:outline-none md:hidden" id="menu-button">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="hidden lg:flex lg:items-center lg:justify-end md:flex-col md:slide-out-left" id="menu">
+            <a href="#accueil" class="px-4 py-2 text-sm font-bold text-gray-100 hover:text-blue-600"
+                id="menuAccueil">Accueil</a>
+            <a href="#about" class="px-4 py-2 text-sm font-bold text-gray-100 hover:text-blue-600" id="menuAbout">À
+                Propos</a>
+            <a href="#outils" class="px-4 py-2 text-sm font-bold text-gray-100 hover:text-blue-600"
+                id="menuOutils">Outils</a>
+            <a href="#contacts" class="px-4 py-2 text-sm font-bold text-gray-100 hover:text-blue-600"
+                id="menuContacts">Contacts</a>
+        </nav>
+    </header>
+    <!--Accueil-->
+    <section class="bg-gray-900 py-32 text-center" id="accueil">
+        <div class="container mx-auto flex flex-col items-center px-4 ">
+            <a href="https://www.linkedin.com/in/rajoharitiana-raharison-27r7h17a37/">
+                <img src="img/RaJharit.jpg" alt="Profile" class="rounded-full w-48 h-48 mb-4">
+            </a>
+        </div>
+        <h1 class="text-5xl font-bold text-white ">Bienvenu sur mon Portfolio</h1>
+        <p class="text-xl font-semibold text-white mt-4 mx-4">
+            Je suis actuellement étudiant en première année du développement
+            Web du côté Front-end à l'Haute École d'Informatique.
+            <br>Je suis motivé pour créer des logiciels créatif et de la création d'applications Web pour ma passion en
+            Informatique.
+            <br>Durant mon parcours au lycée, j'ai développé un intérêt particulier pour l'Informatique, ce
+            qui m'a conduit <br>à choisir le développement Web pour mes études supérieures.
+        </p>
+        <div class=" mt-8 mx-auto text-center">
+            <a href="#contact"
+                class="bg-yellow-500 mx-auto px-4 py-3 text-lg font-bold text-white rounded-full hover:bg-yellow-600 ml-0 transition duration-200 ease-in-out">
+                Contacter Moi
+            </a>
+        </div>
+    </section>
+    <!--About-->
+    <section class="bg-gray-800 py-8" id="about">
+        <div class="container mx-auto flex flex-col items-center px-4">
+            <h2 class="text-3xl font-bold text-gray-100 mb-4">À propos de Moi</h2>
+            <p class="text-gray-100 mb-4 text-center">
+                Je suis un développeur de logiciels créatif avec un peu d'expérience pendant cette période en L1 et
+                motivé à la
+                création d'applications web et mobiles. <br>J'ai une passion pour la résolution de problèmes complexes
+                et la création
+                d'interfaces intuitives et conviviales.
+            </p>
+            <h3 class="text-2xl font-bold text-gray-100 mb-4">Compétences</h3>
+            <div class="flex flex-wrap justify-center md:justify-between">
+                <div class="w-full sm:w-1/2 md:w-1/3 p-4">
+                    <div class="bg-pink-500 rounded-full p-4 flex items-center justify-center mb-4">
+                        <i class="fas fa-code text-4xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-100 mb-2">HTML</h4>
+                    <p class="text-gray-100">
+                        J'ai de solides bases en HTML et je peux créer des contenus bien structurés et
+                        des sites web sémantiquement corrects.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 p-4">
+                    <div class="bg-green-500 rounded-full p-4 flex items-center justify-center mb-4">
+                        <i class="fab fa-css3 text-4xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-100 mb-2">CSS</h4>
+                    <p class="text-gray-100">
+                        J'ai une solide compréhension du CSS et je peux créer des contenus visuellement attrayants et
+                        des
+                        mises en page réactives.
+                    </p>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 p-4">
+                    <div class="bg-yellow-500 rounded-full p-4 flex items-center justify-center mb-4">
+                        <i class="fab fa-js text-4xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-100 mb-2">JavaScript</h4>
+                    <p class="text-gray-100">
+                        J'ai une solide compréhension de JavaScript et je suis en train d'apprendre les différentes
+                        bibliothèques et frameworks pour la création d'applications web tels que React, Vite, Angular...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Outils-->
+    <section class="bg-gray-900 p-8 " id="outils"><br><br>
+        <h2 class="text-2xl font-bold text-white mb-4">Outils utilisés</h2>
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-gray-800 rounded-lg shadow-lg p-8 flex flex-col items-center">
+                <i class="fas fa-briefcase fa-4x text-red-500 mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-2">Pour développement Back-end</h3>
+                <p class="text-sm text-gray-400 mb-4">Java, Python, PostgreSQL</p>
+                <p class="text-sm text-gray-400">Jusqu' à présent</p>
+            </div>
+            <div class="bg-gray-800 rounded-lg shadow-lg p-8 flex flex-col items-center">
+                <i class="fas fa-laptop-code fa-4x text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-2">Pour développement Front-end</h3>
+                <p class="text-sm text-gray-400 mb-4">React JS, Vite JS, Tailwind CSS, JQuery</p>
+                <p class="text-sm text-gray-400">Jusqu' à présent</p>
+            </div>
+            <div class="bg-gray-800 rounded-lg shadow-lg p-8 flex flex-col items-center">
+                <i class="fas fa-pencil-alt fa-4x text-green-500 mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-2">Designer graphique</h3>
+                <p class="text-sm text-gray-400 mb-4">Figma</p>
+                <p class="text-sm text-gray-400">Jusqu' à présent</p>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!--Contacts-->
+    <section class="bg-gray-800 py-8 px-3 " id="contacts">
+        <br><br> <br>
+        <div class="container mx-auto flex flex-col items-center px-4">
+            <h2 class="text-3xl font-bold text-gray-100 mb-4">Entrer en contact</h2>
+            <form class="w-full max-w-md">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="name">
+                            Nom et Prénoms
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-600"
+                            id="name" type="text" placeholder="John Smith">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="email">
+                            E-mail
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-600"
+                            id="email" type="email" placeholder="john@example.com">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea
+                            class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-600"
+                            id="message" placeholder="Bonjour, je suis intéressé par vos services."></textarea>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-2">
+                    <div class="w-full px-3">
+                        <button
+                            class="px-4 py-2 font-bold text-white bg-red-500 rounded-full shadow-lg hover:bg-teal-400"
+                            type="button">
+                            Envoyer un message
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Footer du Page-->
+    <footer class="bg-gray-900 p-4 mt-auto flex flex-col items-center sm:px-4"><br>
+        <p class="text-xs font-bold text-gray-600 mb-4 sm:text-base">
+            Copyright &copy; 2024 RaJharit77
+        </p>
+        <div class="container mx-auto flex flex-col items-center px-4">
+            <div class="flex items-center">
+                <i class="fas fa-envelope text-4xl text-gray-100 mr-4"></i>
+                <a href="mailto:creatifying@gmail.com"
+                    class="text-2xl font-bold text-gray-100 hover:text-gray-400">rajoharitiana.raharison@gmail.com</a>
+            </div>
+            <center>
+                <p class="text-gray-100 mt-4">Ou vous pouvez me trouver sur les réseaux sociaux</p>
+            </center>
+            <div class="mt-4 flex">
+                <a href="https://www.facebook.com/haritiana.hernandez"
+                    class="mx-4 text-4xl font-bold text-gray-100 hover:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+                        <path fill="#FFD43B"
+                            d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/haritiana_h7/"
+                    class="mx-4 text-4xl font-bold text-gray-100 hover:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512">
+                        <path fill="#FFD43B"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+                <a href="https://x.com/Rajharit_r77" class="mx-4 text-4xl font-bold text-gray-100 hover:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+                        <path fill="#FFD43B"
+                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/rajoharitiana-raharison-27r7h17a37/"
+                    class="mx-4 text-4xl font-bold text-gray-100 hover:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512">
+                        <path fill="#FFD43B"
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                    </svg>
+                </a>
+                <a href="https://github.com/RaJharit77"
+                    class="mx-4 text-4xl font-bold text-gray-100 hover:text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="31" viewBox="0 0 496 512">
+                        <path fill="#FFD43B"
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
