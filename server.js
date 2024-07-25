@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Route for the homepage
-app.get('/leLotusBungalow', (req, res) => {
+app.get('/myportfolio', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
