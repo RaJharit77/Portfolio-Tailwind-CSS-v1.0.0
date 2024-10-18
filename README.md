@@ -1,4 +1,4 @@
 # Portfolio-Tailwind-CSS-v1.0.0
-Voici le lien du portfolio qui est déployé sur render(https://render.com/) ci-dessous:
+Voici le lien du portfolio qui a été déployer sur render(https://render.com/) ci-dessous:
 
-https://myfirstportfolio-0pyc.onrender.com
+Portfolio: https://myfirstportfolio-0pyc.onrender.com
